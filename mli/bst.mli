@@ -1,5 +1,4 @@
 open BtreeS ;;
-
 val bst_seek : 'a btree * 'a -> bool  ;; 
 val bst_insert  : 'a btree * 'a -> 'a btree ;; 
 val bst_lbuild  :  'a list ->  'a btree ;; 
